@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Paul's Site</title>
+    <link rel="stylesheet" type="text/css" href="_css/main.css">
+</head>
+<body>
+<header id="pageHeader">
+    <div id="pageBanner"><img src="_images/header.png" alt="Page Banner"></div>
+    <h1>Paweł<br>Skwirowski</h1>
+    <nav id="mainNav">
+        <h2>Site navigation</h2>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="index.html">home</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="contact">
+        <div>
+            <form action="#">
+                <h2>You Can Contact Me Anytime</h2>
+                <ul class="form">
+                    <li>
+                        <label>Your First Name
+                            <span class="required">*</span>
+                        </label>
+                        <input type="text" name="firstname" placeholder="John">
+                    </li>
+                    <li>
+                        <label>Your Last Name
+                            <span class="required">*</span>
+                        </label>
+                        <input type="text" name="lastname" placeholder="Doe">
+                    </li>
+                    <li>
+                        <label>Your e-mail
+                            <span class="required">*</span>
+                        </label>
+                        <input type="email" required name="email" placeholder="john.doe@domain.com">
+                    </li>
+                    <li>
+                        <label>Your Age
+                            <span class="required">*</span>
+                        </label>
+                        <input type="number" required min="18" max="40" name="age" placeholder="18-40 years old">
+                    </li>
+                    <li>
+                        <label>What browser do you use the most?</label>
+                        <select name="most browser use">
+                            <option value=""></option>
+                            <option value="chrome">Google Chrome</option>
+                            <option value="firefox">Mozilla Firefox</option>
+                            <option value="explorer">Internet Explorer</option>
+                            <option value="edge">Microsoft Edge</option>
+                            <option value="opera">Opera</option>
+                            <option value="netscape">Netscape</option>
+                            <option value="safari">Safari</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>What browser do you use the least?</label>
+                        <input id="datalist" list="browsers" name="least browser use">
+                        <datalist id="browsers">
+                            <option value=""></option>
+                            <option value="Google Chrome"></option>
+                            <option value="Mozilla Firefox"></option>
+                            <option value="Internet Explorer"></option>
+                            <option value="Microsoft Edge"></option>
+                            <option value="Opera"></option>
+                            <option value="Netscape"></option>
+                            <option value="Safari"></option>
+                        </datalist>
+                    </li>
+                    <li>
+                        <label>Your Sex</label>
+                        <input type="radio" name="gender" value="male" checked>male
+                        <input type="radio" name="gender" value="female">female
+                        <input type="radio" name="gender" value="other">other
+                    </li>
+                    <li>
+                        <label>Your Message</label>
+                        <textarea name="comment" cols="20" rows="20" placeholder="Enter Text Here..."></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="send">
+                        <input type="reset" value="reset">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+</main>
+<aside>
+    <section id="otherContact">
+        <div>
+            <h2>Pigeon post</h2>
+            <p>If you are bored with standard way of communication, then you can send me a pigeon messenger</p>
+            <img src="_images/contact_pigeon.jpg" alt="Pigeon Post">
+        </div>
+        <div>
+            <h2>Smoke signals</h2>
+            <p>If you find pigeons too mainstream way of communication, there is one more way to reach me</p>
+            <img src="_images/contact_smoke.jpg" alt="Smoke Signals">
+        </div>
+    </section>
+</aside>
+<footer id="pageFooter">
+    <a target="_blank" href="https://github.com/skwirowski"></a>
+    <a target="_blank" href="https://www.facebook.com/"></a>
+    <p class="notice">&copy; 2018 Paweł Skwirowski</p>
+</footer>
+
+</body>
+</html>
