@@ -1,0 +1,396 @@
+
+/*********************************************************************************/
+/* Navigation Styles                                                             */
+/*********************************************************************************/
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand span{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    line-height: 37.5px;
+    padding-left: 15px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    float: left;
+}
+
+/*********************************************************************************/
+/* Header Styles                                                                 */
+/*********************************************************************************/
+
+header:before {
+    content:"";
+    display: block;
+    height: 50px; /* fixed header height*/
+    margin: -50px 0 0; /* negative fixed header height */
+}
+
+header {
+    margin-top: 50px;
+}
+
+header .carousel-inner .item img {
+    margin: auto;
+}
+
+header .jumbotron.header span {
+    font-family: 'Lobster', cursive;
+}
+
+/*********************************************************************************/
+/* Movie Series Styles                                                           */
+/*********************************************************************************/
+
+#movie-series:before {
+    content:"";
+    display: block;
+    height: 50px; /* fixed header height*/
+    margin: -50px 0 0; /* negative fixed header height */
+}
+
+.series-content p {
+    text-align: justify;
+}
+
+.container-series .gold .thumbnail {
+    background: lightgreen;
+}
+
+.container-series .twelfth .thumbnail {
+    background: lightpink;
+}
+
+.container-series .thumbnail p {
+    text-align: justify;
+}
+
+.container-series .gold .glyphicon-star {
+    color: gold;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    font-size: 0.8em;
+}
+
+.container-series .silver .glyphicon-star {
+    color: silver;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    font-size: 0.8em;
+}
+
+.container-series .bronze .glyphicon-star {
+    color: #cd7f32;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    font-size: 0.8em;
+}
+
+.container-series .glyphicon-heart {
+    color: limegreen;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .fourth .glyphicon-heart:last-of-type {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .fifth .glyphicon-heart:last-of-type {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .sixth .glyphicon-heart:last-of-type {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .seventh .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .seventh .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .eighth .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .eighth .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .ninth .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .ninth .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .tenth .glyphicon-heart:nth-of-type(3n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .tenth .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .tenth .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .eleventh .glyphicon-heart:nth-of-type(3n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .eleventh .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .eleventh .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .twelfth .glyphicon-heart:nth-of-type(3n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .twelfth .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-series .twelfth .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*********************************************************************************/
+/* Movies Styles                                                                 */
+/*********************************************************************************/
+
+#movies:before {
+    content:"";
+    display: block;
+    height: 50px; /* fixed header height*/
+    margin: -50px 0 0; /* negative fixed header height */
+}
+
+.movies-content p {
+    text-align: justify;
+}
+
+.container-movies .gold .thumbnail {
+    background: lightgreen;
+}
+
+.container-movies .sixth .thumbnail {
+    background: lightpink;
+}
+
+.container-movies .thumbnail p {
+    text-align: justify;
+}
+
+.container-movies .gold .glyphicon-star {
+    color: gold;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    font-size: 0.8em;
+}
+
+.container-movies .silver .glyphicon-star {
+    color: silver;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    font-size: 0.8em;
+}
+
+.container-movies .bronze .glyphicon-star {
+    color: #cd7f32;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    font-size: 0.8em;
+}
+
+.container-movies .glyphicon-heart {
+    color: limegreen;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-movies .bronze .glyphicon-heart:last-of-type {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-movies .fourth .glyphicon-heart:last-of-type {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-movies .fifth .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-movies .fifth .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-movies .sixth .glyphicon-heart:nth-of-type(4n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-movies .sixth .glyphicon-heart:nth-of-type(5n) {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*********************************************************************************/
+/* Read More/ Read Less Styles                                                   */
+/*********************************************************************************/
+
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+}
+
+/*********************************************************************************/
+/* Modal Styles                                                                  */
+/*********************************************************************************/
+
+.modal-header {
+    color: #9d9d9d;
+    background: #333;
+}
+
+.modal-header img {
+    height: 40px;
+    padding-right: 15px;
+}
+
+.flexible-media {
+    margin: 1em 0;
+}
+
+.flexible-video-16-9 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* wynika z proporcji obrazu 16:9 */
+}
+.flexible-video-16-9 > iframe {
+    border: 0;
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+footer {
+    color: #9d9d9d;
+    background: #333;
+}
+
+.media-wrapper {
+    padding: 10px 0;
+}
+
+.media-wrapper .row {
+    text-align: center;
+    margin: 0;
+}
+
+.media-wrapper h3 {
+    margin-top: 0;
+}
+
+.media-wrapper .row div {
+    display: inline-block;
+}
+
+/*********************************************************************************/
+/* Social Media Icons                                                            */
+/*********************************************************************************/
+
+.fa::before {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 15px 5px 15px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook::before {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter::before {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-pinterest::before {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-dribbble::before {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa-tumblr::before {
+    background: #2c4762;
+    color: white;
+}
+

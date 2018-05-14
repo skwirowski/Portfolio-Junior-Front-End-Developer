@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Eater</title>
+    <!-- Latest compiled and minified CSS Bootstrap v3.3.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="_css/fonts.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body data-spy="scroll" data-target="#main-navigation">
+
+<!--NAVIGATION-->
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand"><img src="_images/brand-logo.png"><span>Movie Eater</span></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-dropdown">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="menu-dropdown">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#movie-series">Movie Series</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!------------HOME-------------->
+
+    <!--HEADER-->
+
+    <header id="home">
+        <!--CAROUSEL-->
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+                <li data-target="#header-carousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="_images/mobile-series-background-the-wire.jpg" alt="..." class="visible-xs">
+                    <img src="_images/mobile-series-background-the-wire-sm.jpg" alt="..." class="visible-sm">
+                    <img src="_images/mobile-series-background-the-wire-md.jpg" alt="..." class="hidden-xs hidden-sm">
+                    <div class="carousel-caption">
+                        <h2>Why <em>The Wire</em> Is The Best TV Show Of All Time?</h2>
+                        <p> It’s a prime example of how a series can deliver excellence on almost every level through
+                            its entire run, The Wire is perhaps the greatest TV series ever made.
+                            <a  href="https://screenrant.com/the-wire-est-tv-show-all-time/" title="Go to screenrant.com">
+                                Read more on ScreenRant</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="_images/mobile-series-background-the-handmaids-tale.jpg" alt="..." class="visible-xs">
+                    <img src="_images/mobile-series-background-the-handmaids-tale-sm.jpg" alt="..." class="visible-sm">
+                    <img src="_images/mobile-series-background-the-handmaids-tale-md.jpg" alt="..." class="hidden-xs hidden-sm">
+                    <div class="carousel-caption">
+                        <h2><em>The Handmaid's Tale</em> Is Shocking & Uncomfortable To Watch</h2>
+                        <p> That’s Exactly Why You Need To See It
+                            <a  href="https://www.scoopwhoop.com/the-handmaids-tale-is-a-must-watch/#.mskte6cv6" title="Go to scoopwhoop.com">
+                                Read more on ScoopWhoop</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="_images/mobile-series-background-house-of-cards.jpg" alt="..." class="visible-xs">
+                    <img src="_images/mobile-series-background-house-of-cards-sm.jpg" alt="..." class="visible-sm">
+                    <img src="_images/mobile-series-background-house-of-cards-md.jpg" alt="..." class="hidden-xs hidden-sm">
+                    <div class="carousel-caption">
+                        <h2><em>House of Cards</em> Ruthless Pragmatism</h2>
+                        <p> His character may be fictional but his philosophy isn't
+                            <a  href="https://www.theatlantic.com/politics/archive/2014/02/frank-underwood-and-a-brief-history-of-ruthless-pragmatism/439893/" title="Go to theatlantic.com">
+                                Read more on TheAtlantic</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="_images/mobile-series-background-black-mirror.jpg" alt="..." class="visible-xs">
+                    <img src="_images/mobile-series-background-black-mirror-sm.jpg" alt="..." class="visible-sm">
+                    <img src="_images/mobile-series-background-black-mirror-md.jpg" alt="..." class="hidden-xs hidden-sm">
+                    <div class="carousel-caption">
+                        <h2><em>Black Mirror</em> from Eerie to Horrifying</h2>
+                        <p> Some episodes will just shake your worldview. Others will
+                            <a  href="https://www.thewrap.com/13-black-mirror-episodes-ranked-from-least-to-most-terrifying-photos/" title="Go to thewrap.com">
+                                Read more on TheWrap</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#header-carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#header-carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--JUMBOTRON-->
+        <div class="jumbotron header">
+            <div class="container">
+                <h1>The best movies and movie series</h1>
+                <p> <span>Movie Eater</span> is not just another movie list website, my focus on my personal preferences
+                    makes me different. I made essential film lists introducing the best films from different
+                    filmmakers, countries, genres and eras, these in-depth lists not only serve as guides to good movies,
+                    but also give you a bigger picture. Let's take a look at my favourite films list.
+
+                    </p>
+            </div>
+        </div>
+    </header>
+
+<!--------MOVIE SERIES---------->
+
+    <article id="movie-series">
+        <!--JUMBOTRON-->
+        <div class="jumbotron series-content">
+            <div class="container">
+                <img src="_images/series-jumbotron-louie.jpg" class="img-responsive thumbnail">
+                <h1>The best movie series of my personal choice</h1>
+                <p> TV shows are lately so much better than Hollywood movies Unlike 1999, in which films were amazing,
+                    the products produced in the past five years for broadcast TV and cable have far surpassed your average movie.
+                    That's why I'm more interested in watching movie series. Let's take a look at my favourites.
+                </p>
+            </div>
+        </div>
+        <div class="container container-series">
+            <div class="row">
+                <!--GOLD #1-->
+                <div class="gold col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-the-wire.jpeg" alt="...">
+                        <div class="caption">
+                            <h3>1. The Wire
+                                <span class="glyphicon glyphicon-star"></span>
+                            </h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-1" />
+                                <p class="read-more-wrap">
+                                    A complex crime drama set in Baltimore that follows the thread of a single police
+                                    investigation, from the perspectives of both law-enforcement officials and the criminals
+                                    they're pursuing focused on the city's illegal drug
+                                    <span class="read-more-target">
+                                        trade in the first series before expanding in scope
+                                        for the second to include corruption on the waterfront.
+                                    </span>
+                                </p>
+                                <label for="post-1" class="read-more-trigger"></label>
+                            </div>
+                            <p> <button class="btn btn-success" role="button" data-toggle="modal" data-target="#seriesGoldModal">Watch trailer</button>
+                                <a href="http://www.imdb.com/title/tt0306414/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--SILVER #2-->
+                <div class="silver col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-house-of-cards.jpeg" alt="...">
+                        <div class="caption">
+                            <h3>2. House of Cards
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-2" />
+                                <p class="read-more-wrap">
+                                    House of Cards is a political thriller web television series about a ruthless
+                                    congressman and his equally ambitious wife who navigate the corridors of power in
+                                    Washington, D.C. It is an adaptation of the 1990 BBC miniseries
+                                    <span class="read-more-target">
+                                        of the same name, based on the novel by Michael Dobbs.
+                                    </span>
+                                </p>
+                                <label for="post-2" class="read-more-trigger"></label>
+                            </div>
+                            <p> <button class="btn btn-success" role="button" data-toggle="modal" data-target="#seriesSilverModal">Watch trailer</button>
+                                <a href="http://www.imdb.com/title/tt1856010/?ref_=nv_sr_2" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--BRONZE #3-->
+                <div class="bronze col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-dexter.jpg" alt="...">
+                        <div class="caption">
+                            <h3>3. Dexter
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-3" />
+                                <p class="read-more-wrap">
+                                    Dexter is a television crime drama mystery series set in Miami, the series centers on
+                                    Dexter Morgan, a forensic technician specializing in blood spatter pattern analysis, who
+                                    leads a secret parallel life as a vigilante serial killer,
+                                    <span class="read-more-target">
+                                        hunting down murderers who have slipped through the cracks of the justice
+                                        system. The show's first season was derived from the novel Darkly Dreaming
+                                        Dexter by Jeff Lindsay.
+                                    </span>
+                                </p>
+                                <label for="post-3" class="read-more-trigger"></label>
+                            </div>
+                            <p> <button class="btn btn-success" role="button" data-toggle="modal" data-target="#seriesBronzeModal">Watch trailer</button>
+                                <a href="http://www.imdb.com/title/tt0773262/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX MD & LG-->
+                <div class="clearfix visible-md visible-lg"></div>
+                <!--PLACE NR #4-->
+                <div class="fourth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-handmaids-tale.jpg" alt="...">
+                        <div class="caption">
+                            <h3>4. The Handmaid's Tale</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-4" />
+                                <p class="read-more-wrap">
+                                    Adapted from the classic novel by Margaret Atwood, The Handmaid's Tale is the story of
+                                    life in the dystopia of Gilead, a totalitarian society in what was formerly the United
+                                    States. Facing environmental disasters and a plunging birthrate,
+                                    <span class="read-more-target">
+                                        Gilead is ruled by a twisted fundamentalism in its militarized "return to traditional values".
+                                    </span>
+                                </p>
+                                <label for="post-4" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt5834204/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--PLACE NR #5-->
+                <div class="fifth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-gomorra.jpg" alt="...">
+                        <div class="caption">
+                            <h3>5. Gomorra</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-5" />
+                                <p class="read-more-wrap">
+                                    Drama exploring the dark web of crime, loyalty and sacrifice at the heart of the Camorra,
+                                    the brutal Neapolitan crime organization. Gomorrah is set in the suburbs of Naples,
+                                    focusing on organized crime and the relationships of gangsters,
+                                    <span class="read-more-target">
+                                        drug dealers, and ordinary people. Gomorrah depicts street-level crime and its
+                                        hierarchical organization from the pavement up to the office chair.
+                                    </span>
+                                </p>
+                                <label for="post-5" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="https://www.imdb.com/title/tt2049116/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--PLACE NR #6-->
+                <div class="sixth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-boardwalk-empire.jpg" alt="...">
+                        <div class="caption">
+                            <h3>6. Boardwalk Empire</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-6" />
+                                <p class="read-more-wrap">
+                                    The story is set in the 1920s' America, after the Great War when any man can live a
+                                    lavish life for a few dollars, legally or illegally. A county political figure, Enoch
+                                    gains prominence and takes control of the famous Atlantic City during
+                                    <span class="read-more-target">
+                                        the Prohibition period when the Wall Street sees a boom, women get the right to
+                                        vote, radio makes its way into the market in the changing times.
+                                    </span>
+                                </p>
+                                <label for="post-6" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="https://www.imdb.com/title/tt0979432/?ref_=nv_sr_2" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--CLEARFIX MD & LG-->
+                <div class="clearfix visible-md visible-lg"></div>
+                <!--PLACE NR #7-->
+                <div class="seventh col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-the-fall.jpg" alt="...">
+                        <div class="caption">
+                            <h3>7. The Fall</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-7" />
+                                <p class="read-more-wrap">
+                                    The Fall is a British-Irish crime drama television series filmed and set in Northern
+                                    Ireland. A seemingly cold but very passionate policewoman goes head to head with a seemingly
+                                    passionate father who is in fact a cold serialist in
+                                    <span class="read-more-target">
+                                        this procedural out of Belfast. The only thing they share is their common complexity.
+                                    </span>
+                                </p>
+                                <label for="post-7" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt2294189/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--PLACE NR #8-->
+                <div class="eighth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-narcos.jpg" alt="...">
+                        <div class="caption">
+                            <h3>8. Narcos</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-8" />
+                                <p class="read-more-wrap">
+                                    This raw, gritty series chronicles the gripping real-life stories of the drug kingpins
+                                    of the late 1980s and the corroborative efforts of law enforcement to meet them head on
+                                    in brutal, bloody conflict. It details the many, often-
+                                    <span class="read-more-target">
+                                        conflicting forces - legal, political, police, military and civilian - that clash in the
+                                        effort to control cocaine, one of the world's most valuable commodities.
+                                    </span>
+                                </p>
+                                <label for="post-8" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt2707408/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--PLACE NR #9-->
+                <div class="ninth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-sons-of-anarchy.jpg" alt="...">
+                        <div class="caption">
+                            <h3>9. Sons Of Anarchy</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-9" />
+                                <p class="read-more-wrap">
+                                    Sons of Anarchy is an American crime drama television series It follows the lives of a
+                                    close-knit outlaw motorcycle club operating in Charming, a fictional town in California's
+                                    Central Valley.  Motorcycle club members try to protect
+                                    <span class="read-more-target">
+                                        their hometown from drug dealers and rapacious developers while running guns
+                                        themselves. The series explores vigilantism, government corruption and racism,
+                                        and depicts an outlaw motorcycle club as an analogy for human transformation.
+                                    </span>
+                                </p>
+                                <label for="post-9" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt1124373/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX MD & LG-->
+                <div class="clearfix visible-md visible-lg"></div>
+                <!--PLACE NR #10-->
+                <div class="tenth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-black-mirror.jpg" alt="...">
+                        <div class="caption">
+                            <h3>10. Black Mirror</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-10" />
+                                <p class="read-more-wrap">
+                                    Black Mirror is an anthology series that taps into our collective unease with the modern
+                                    world, with each stand-alone episode a sharp, suspenseful tale exploring themes of
+                                    contemporary techno-paranoia. Without questioning it,
+                                    <span class="read-more-target">
+                                        technology has transformed all aspects of our lives; in every home; on every
+                                        desk; in every palm - a plasma screen; a monitor; a Smartphone -- a Black Mirror
+                                        reflecting our 21st Century existence back at us.
+                                    </span>
+                                </p>
+                                <label for="post-10" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt2085059/?ref_=tt_mv_close" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--PLACE NR #11-->
+                <div class="eleventh col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-louie.jpeg" alt="...">
+                        <div class="caption">
+                            <h3>11. Louie</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-11" />
+                                <p class="read-more-wrap">
+                                    Louie is an American comedy-drama television series. It is written, directed, created,
+                                    edited, and produced by comedian Louis C.K., who also stars in the show as a fictionalized
+                                    version of himself, a comedian and newly
+                                    <span class="read-more-target">
+                                        divorced father raising his two daughters in New York City. The show has a loose
+                                        format atypical for television comedy series, consistingof largely unconnected storylines and
+                                        segments that revolve around Louie's life, punctuated by live stand-up performances.
+                                    </span>
+                                </p>
+                                <label for="post-11" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt1492966/?ref_=nv_sr_2" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--PLACE NR #12-->
+                <div class="twelfth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/series-thumbnail-the-office.jpg" alt="...">
+                        <div class="caption">
+                            <h3>12. The office</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-12" />
+                                <p class="read-more-wrap">
+                                    The Office is an American television comedy series. It is an adaptation of the original
+                                    BBC series of the same name. The series depicts the everyday lives of office employees
+                                    in the Scranton, Pennsylvania, branch of the
+                                    <span class="read-more-target">
+                                        fictional Dunder Mifflin Paper Company.
+                                To simulate the look of an actual documentary, it is filmed in a single-camera setup,
+                                without a studio audience or a laugh track. The show debuted on NBC as a mid-season
+                                replacement and ran for nine seasons and 201 episodes.
+                                    </span>
+                                </p>
+                                <label for="post-12" class="read-more-trigger"></label>
+                            </div>
+                            <p> <button class="btn btn-success" role="button" data-toggle="modal" data-target="#seriesTwelfthModal">Watch trailer</button>
+                                <a href="http://www.imdb.com/title/tt0386676/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<!-----------MOVIES------------->
+
+    <article id="movies">
+        <!--JUMBOTRON-->
+        <div class="jumbotron movies-content">
+            <div class="container">
+                <img src="_images/movies-jumbotron-louie.jpg" class="img-responsive thumbnail">
+                <h1>The best movies of my personal choice</h1>
+                <p> These are some of the movies I really enjoy and recommend for others to watch. This isn’t
+                    meant to be a best of the best movies list. These are just my favorites, pure and simple. While each
+                    movie may not be the best, they are all incredible, and I guarantee you’ll find some gems on the
+                    list that you haven’t seen. Let's take a look at my favourites.
+                </p>
+            </div>
+        </div>
+        <div class="container container-movies">
+            <div class="row">
+                <!--GOLD #1-->
+                <div class="gold col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/movies-thumbnail-paterson.jpg" alt="...">
+                        <div class="caption">
+                            <h3>1. Paterson
+                                <span class="glyphicon glyphicon-star"></span>
+                            </h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-13" />
+                                <p class="read-more-wrap">
+                                    Paterson is a bus driver in the city of Paterson, New Jersey--they share the name. Every
+                                    day, Paterson adheres to a simple routine: he drives his daily route, observing the city
+                                    as it drifts across his windshield and overhearing fragments
+                                    <span class="read-more-target">
+                                        of conversation swirling around him; he writes poetry into a notebook; he
+                                        walks his dog; he stops in a bar and drinks exactly one beer; he goes home to
+                                        his wife, Laura. By contrast, Laura's world is ever changing. New dreams come
+                                        to her almost daily. Paterson loves Laura and she loves him. He supports her
+                                        newfound ambitions; she champions his gift for poetry. The film quietly observes
+                                        the triumphs and defeats of daily life, along with the poetry evident in its
+                                        smallest details.
+                                    </span>
+                                </p>
+                                <label for="post-13" class="read-more-trigger"></label>
+                            </div>
+                            <p> <button class="btn btn-success" role="button" data-toggle="modal" data-target="#moviesGoldModal">Watch trailer</button>
+                                <a href="http://www.imdb.com/title/tt5247022/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--SILVER #2-->
+                <div class="silver col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/movies-thumbnail-nightcrawler.jpg" alt="...">
+                        <div class="caption">
+                            <h3>2. Nightcrawler
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-14" />
+                                <p class="read-more-wrap">
+                                    NIGHTCRAWLER is a pulse-pounding thriller set in the nocturnal underbelly of contemporary
+                                    Los Angeles. Jake Gyllenhaal stars as Lou Bloom, a driven young man desperate for work who
+                                    discovers the high-speed world of
+                                    <span class="read-more-target">
+                                        L.A. crime journalism. Finding a group of freelance camera crews who film crashes,
+                                        fires, murder and other mayhem, Lou muscles into the cut-throat, dangerous realm of nightcrawling
+                                        -- where each police siren wail equals a possible windfall and victims are
+                                        converted into dollars and cents. Aided by Rene Russo as Nina, a veteran of the
+                                        blood-sport that is local TV news, Lou thrives. In the breakneck, ceaseless
+                                        search for footage, he becomes the star of his own story.
+                                    </span>
+                                </p>
+                                <label for="post-14" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt2872718/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--BRONZE #3-->
+                <div class="bronze col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/movies-thumbnail-layer-cake.jpg" alt="...">
+                        <div class="caption">
+                            <h3>3. Layer Cake
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            </h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-15" />
+                                <p class="read-more-wrap">
+                                    Just as a successful cocaine dealer, who has earned a respected place among England's Mafia
+                                    elite, eyes an early retirement from the business, big boss Jimmy Price hands down a tough
+                                    assignment: find Charlotte Ryder,
+                                    <span class="read-more-target">
+                                        the missing rich princess daughter of Jimmy's old pal Edward, a powerful
+                                        construction business player and gossip papers socialite. Complicating matters
+                                        are two million pounds' worth of Grade A ecstasy, a brutal neo-Nazi sect and a
+                                        whole series of double crossings.
+                                    </span>
+                                </p>
+                                <label for="post-15" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt0375912/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX MD & LG-->
+                <div class="clearfix visible-md visible-lg"></div>
+                <!--PLACE NR #4-->
+                <div class="fourth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/movies-thumbnail-dark-knight.jpeg" alt="...">
+                        <div class="caption">
+                            <h3>4. The Dark Knight</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-16" />
+                                <p class="read-more-wrap">
+                                    When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos
+                                    on the people of Gotham, the Dark Knight must accept one of the greatest psychological and
+                                    physical tests of his ability to fight injustice.
+                                    <span class="read-more-target">
+                                        Just as it begins to appear as if Batman, Lt. James Gordon, and District Attorney
+                                        Harvey Dent are making headway in their tireless battle against the criminal
+                                        element, a maniacal, wisecracking fiend plunges the streets of Gotham City into
+                                        complete chaos.
+                                    </span>
+                                </p>
+                                <label for="post-16" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt0468569/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEARFIX SM-->
+                <div class="clearfix visible-sm "></div>
+                <!--PLACE NR #5-->
+                <div class="fifth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/movies-thumbnail-clerks.jpg" alt="...">
+                        <div class="caption">
+                            <h3>5. Clerks</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-17" />
+                                <p class="read-more-wrap">
+                                    When Dante Hicks is reluctantly put in charge of the Quick Stop market on his day
+                                    off, he tries, though half-heartedly, to perform his minimum-wage duties as efficiently as
+                                    possible. This gets tough amidst the on-going
+                                    <span class="read-more-target">
+                                        fight with his girlfriend, Veronica, and his
+                                        attempt to get back together with his ex-girlfriend, Caitlyn. Meanwhile, his friend and alter
+                                        ego Randall is working behind the counter of the adjacent video store -- at least when he
+                                        feels like it. Randall's unabashed disdain of his place of employment, a long with his
+                                        self-admitted hatred towards its customers is a sharp contrast to Dante's feeble attempts
+                                        at the niceties of customer service. Much of the film consists of Randall and Dante's
+                                        criticism of their customers, their lives, and the world in general.
+                                    </span>
+                                </p>
+                                <label for="post-17" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt0109445/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--PLACE NR #6-->
+                <div class="sixth col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_images/movies-thumbnail-hunt-for-the-wilderpeople.jpg" alt="...">
+                        <div class="caption">
+                            <h3>6. Hunt for the Wilderpeople</h3>
+                            <p>Personal score:
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                                <span class="glyphicon glyphicon-heart"></span>
+                            </p>
+                            <div>
+                                <input type="checkbox" class="read-more-state" id="post-18" />
+                                <p class="read-more-wrap">
+                                    Raised on hip-hop and foster care, defiant city kid Ricky gets a fresh start in the
+                                    New Zealand countryside. He quickly finds himself at home with his new foster family:
+                                    the loving Aunt Bella, the cantankerous Uncle Hec, and dog Tupac.
+                                    <span class="read-more-target">
+                                        When a tragedy strikes that threatens to ship Ricky to another home, both he and
+                                        Hec go on the run in the bush. As a national manhunt ensues, the newly branded
+                                        outlaws must face their options: go out in a blaze of glory or overcome their
+                                        differences and survive as a family. A hilarious, touching crowd-pleaser, HUNT
+                                        FOR THE WILDERPEOPLE reminds us about the journey that
+                                        growing up is (at any age) and those who help us along the way.
+                                    </span>
+                                </p>
+                                <label for="post-18" class="read-more-trigger"></label>
+                            </div>
+                            <p> <a href="#" class="btn btn-primary" role="button">Watch trailer</a>
+                                <a href="http://www.imdb.com/title/tt4698684/?ref_=nv_sr_1" class="btn btn-default" role="button">Go to IMDb</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+<!--FOOTER-->
+    <footer>
+        <div class="container media-wrapper">
+            <div class="row">
+                <h3 class="text-center">Follow me</h3>
+                <div class="row">
+                    <div><a class="fa fa-twitter" href="#"><span></span></a></div>
+                    <div><a class="fa fa-facebook" href="#"><span></span></a></div>
+                    <div><a class="fa fa-dribbble" href="#"><span></span></a></div>
+                    <div><a class="fa fa-tumblr" href="#"><span></span></a></div>
+                    <div><a class="fa fa-pinterest" href="#"><span></span></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!------------MODALS-------------->
+
+    <!--MOVIE SERIES MODAL GOLD #1-->
+    <div class="modal fade" id="seriesGoldModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h4 class="modal-title" id="seriesGoldModalLabel"><img src="_images/brand-logo.png">Watch trailer</h4>
+                </div>
+                <div class="modal-body">
+                    <figure class="flexible-media flexible-video-16-9">
+                        <iframe allowfullscreen src="https://www.youtube.com/embed/uDcQbk78CSw"></iframe>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MOVIE SERIES MODAL SILVER #2-->
+    <div class="modal fade" id="seriesSilverModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h4 class="modal-title" id="seriesSilverModalLabel"><img src="_images/brand-logo.png">Watch trailer</h4>
+                </div>
+                <div class="modal-body">
+                    <figure class="flexible-media flexible-video-16-9">
+                        <iframe allowfullscreen src="https://www.youtube.com/embed/ULwUzF1q5w4"></iframe>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MOVIE SERIES MODAL BRONZE #3-->
+    <div class="modal fade" id="seriesBronzeModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h4 class="modal-title" id="seriesBronzeModalLabel"><img src="_images/brand-logo.png">Watch trailer</h4>
+                </div>
+                <div class="modal-body">
+                    <figure class="flexible-media flexible-video-16-9">
+                        <iframe allowfullscreen src="https://www.youtube.com/embed/YQeUmSD1c3g"></iframe>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MOVIE SERIES MODAL PLACE NR #12-->
+    <div class="modal fade" id="seriesTwelfthModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h4 class="modal-title" id="seriesTwelfthModalLabel"><img src="_images/brand-logo.png">Watch trailer</h4>
+                </div>
+                <div class="modal-body">
+                    <figure class="flexible-media flexible-video-16-9">
+                        <iframe allowfullscreen src="https://www.youtube.com/embed/sMXpGBiC6xo"></iframe>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MOVIES MODAL GOLD #1-->
+    <div class="modal fade" id="moviesGoldModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">X</button>
+                    <h4 class="modal-title" id="moviesGoldModalLabel"><img src="_images/brand-logo.png">Watch trailer</h4>
+                </div>
+                <div class="modal-body">
+                    <figure class="flexible-media flexible-video-16-9">
+                        <iframe allowfullscreen src="https://www.youtube.com/embed/ClRNg42G1nQ"></iframe>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery Core 3.3.1 -->
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript Bootstrap v3.3.7 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+</body>
+</html>
