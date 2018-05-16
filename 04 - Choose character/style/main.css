@@ -1,0 +1,23 @@
+.main-form {
+    margin-top: 50px;
+}
+
+.knight-type-select {
+    display: none;
+}
+
+.mage-type-select {
+    display: none;
+}
+
+#unit-class option:first-child,
+#knight-type option:first-child,
+#mage-type option:first-child {
+    display: none;
+}
+
+#unit-result {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
