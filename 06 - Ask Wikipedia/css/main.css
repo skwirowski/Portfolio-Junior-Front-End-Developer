@@ -1,0 +1,17 @@
+body {
+    background: lightgray;
+}
+
+.search-container {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.result-container {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
