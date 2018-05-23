@@ -2,7 +2,7 @@
 
 ### Authors
 
-   Zespół AMPF w składzie:
+   The Team **AMPF** members:
    - Filip
    - Maciek
    - Paweł
